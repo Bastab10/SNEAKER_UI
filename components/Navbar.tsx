@@ -1,7 +1,17 @@
+"use client";
+
 import Link from "next/link";
 import { Heart, Search, ShoppingBag } from "lucide-react";
+import { useCart } from "@/components/cart/CartContext";
 
 export default function Navbar() {
+  const { cart } = useCart();
+
+  const cartCount = cart.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
+
   return (
     <nav className="border-b border-gray-100 bg-white">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
@@ -63,13 +73,19 @@ export default function Navbar() {
             <Heart size={22} strokeWidth={1.8} />
           </button>
 
-          <button
-            type="button"
+          <Link
+            href="/cart"
             aria-label="Shopping bag"
-            className="rounded-full p-2 transition-colors hover:bg-gray-100"
+            className="relative rounded-full p-2 transition-colors hover:bg-gray-100"
           >
             <ShoppingBag size={22} strokeWidth={1.8} />
-          </button>
+
+            {cartCount > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-black px-1 text-[10px] font-medium text-white">
+                {cartCount}
+              </span>
+            )}
+          </Link>
         </div>
       </div>
     </nav>

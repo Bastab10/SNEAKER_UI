@@ -1,6 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": []
-}
+{"version":4,"routes":{"/products/[id]":{},"/products/1":{},"/products/2":{},"/products/3":{},"/products/4":{},"/products/5":{},"/products/6":{}},"dynamicRoutes":{"/products/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":"/products/[id]/page","fallbackRevalidate":false,"fallbackRootParams":[],"fallbackRouteParams":[{"paramName":"id","paramType":"dynamic"}],"fallbackSourceRoute":"/products/[id]","routeRegex":"^\\/products\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[]}

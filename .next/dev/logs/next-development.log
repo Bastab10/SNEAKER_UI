@@ -1,5 +1,12 @@
-{"timestamp":"00:00:02.915","source":"Server","level":"LOG","message":"- Cache Components enabled"}
-{"timestamp":"00:00:02.915","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
-{"timestamp":"00:00:02.916","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
-{"timestamp":"00:00:02.916","source":"Server","level":"LOG","message":"  ✓ agentFeedback"}
-{"timestamp":"00:00:02.916","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.027","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:06.028","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:06.028","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
+{"timestamp":"00:00:06.028","source":"Server","level":"LOG","message":"  ✓ agentFeedback"}
+{"timestamp":"00:00:06.028","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:09.349","source":"Server","level":"LOG","message":"✓ Compiled in 564ms"}
+{"timestamp":"00:06:30.979","source":"Server","level":"LOG","message":"✓ Compiled in 129ms"}
+{"timestamp":"00:07:02.267","source":"Server","level":"LOG","message":"✓ Compiled in 237ms"}
+{"timestamp":"00:08:42.046","source":"Server","level":"LOG","message":"✓ Compiled in 143ms"}
+{"timestamp":"00:09:32.494","source":"Server","level":"LOG","message":"✓ Compiled in 381ms"}
+{"timestamp":"00:10:54.699","source":"Server","level":"LOG","message":"✓ Compiled in 114ms"}
+{"timestamp":"00:11:03.543","source":"Server","level":"LOG","message":"✓ Compiled in 178ms"}
