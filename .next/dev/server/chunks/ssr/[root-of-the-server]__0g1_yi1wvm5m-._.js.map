@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///D:/sneaker-store/sneaker-store/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///D:/sneaker-store/sneaker-store/app/page.tsx"],"sourcesContent":["import Navbar from \"@/components/Navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <Navbar />\n\n      <main>\n        <h1 className=\"p-10 text-4xl font-bold\">\n          Sneaker Store\n        </h1>\n      </main>\n    </>\n  );\n}"],"names":["Home","Navbar","className"],"mappings":";;;;;;;;;;;;AAEe,SAASA;IACtB,qBACE;;0BACE,8OAACC;;;;;0BAED,8OAAC;0BACC,cAAA,8OAAC;oBAAGC,WAAU;8BAA0B;;;;;;;;;;;;;;;;;AAMhD"}}]
+}
