@@ -18,6 +18,26 @@ const CartContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project
 function CartProvider({ children }) {
     _s();
     const [cart, setCart] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const firstRender = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(true);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "CartProvider.useEffect": ()=>{
+            if (firstRender.current) {
+                firstRender.current = false;
+                const savedCart = localStorage.getItem("cart");
+                if (savedCart) {
+                    try {
+                        setCart(JSON.parse(savedCart));
+                    } catch  {
+                        localStorage.removeItem("cart");
+                    }
+                }
+                return;
+            }
+            localStorage.setItem("cart", JSON.stringify(cart));
+        }
+    }["CartProvider.useEffect"], [
+        cart
+    ]);
     const addToCart = (product, size)=>{
         setCart((currentCart)=>{
             const existingItem = currentCart.find((item)=>item.product.id === product.id && item.size === size);
@@ -60,11 +80,11 @@ function CartProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/components/cart/CartContext.tsx",
-        lineNumber: 87,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }
-_s(CartProvider, "ZqFaEIYkzI5UoYUmTgmqHbYYm/0=");
+_s(CartProvider, "B4JTJv8T0yghfylaHSop0v4mq+s=");
 _c = CartProvider;
 function useCart() {
     _s1();
