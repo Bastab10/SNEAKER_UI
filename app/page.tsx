@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen w-full overflow-x-clip bg-white">
       <TopBar />
       <Navbar />
       <PromoBar />
@@ -34,6 +34,6 @@ export default function Home() {
         title="New Arrivals"
         products={newArrivals}
       />
-    </>
+    </main>
   );
 }

@@ -37,7 +37,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$products$2e$ts__$5b$
 ;
 ;
 function Home() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        className: "min-h-screen w-full overflow-x-clip bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
@@ -105,29 +106,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative h-[650px] w-full overflow-hidden bg-gray-200",
+        className: "relative h-[520px] w-full overflow-hidden bg-gray-200 sm:h-[600px] md:h-[650px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                 src: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=2000&q=90",
                 alt: "Featured sneaker",
-                className: "absolute inset-0 h-full w-full object-cover"
+                className: "absolute inset-0 h-full w-full object-cover object-center"
             }, void 0, false, {
                 fileName: "[project]/components/Hero.tsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"
+                className: "absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent"
             }, void 0, false, {
                 fileName: "[project]/components/Hero.tsx",
                 lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-x-0 bottom-12 flex flex-col items-center px-6 text-center text-white",
+                className: "absolute inset-x-0 bottom-8 flex flex-col items-center px-4 text-center text-white sm:bottom-12 sm:px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mb-3 text-sm font-semibold uppercase tracking-[0.3em]",
+                        className: "mb-3 text-xs font-semibold uppercase tracking-[0.25em] sm:text-sm sm:tracking-[0.3em]",
                         children: "New Collection"
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
@@ -135,7 +136,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-6xl font-black uppercase tracking-tight sm:text-7xl md:text-8xl",
+                        className: "text-4xl font-black uppercase tracking-tight sm:text-6xl md:text-7xl lg:text-8xl",
                         children: "Move Free"
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
@@ -143,7 +144,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-4 max-w-lg text-sm sm:text-base",
+                        className: "mt-3 max-w-lg text-sm leading-relaxed sm:mt-4 sm:text-base",
                         children: "Designed for everyday movement. Built for wherever you go."
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
@@ -151,11 +152,11 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-7 flex gap-3",
+                        className: "mt-6 flex w-full flex-wrap justify-center gap-3 sm:mt-7",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
-                                className: "rounded-full bg-white px-7 py-3 text-sm font-semibold text-black transition-transform hover:scale-105",
+                                className: "min-w-[130px] rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-105 sm:min-w-0 sm:px-8",
                                 children: "Shop Men"
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
@@ -164,7 +165,7 @@ function Hero() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
-                                className: "rounded-full bg-white px-7 py-3 text-sm font-semibold text-black transition-transform hover:scale-105",
+                                className: "min-w-[130px] rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-105 sm:min-w-0 sm:px-8",
                                 children: "Shop Women"
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
@@ -244,21 +245,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function PromoBar() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "bg-gray-100 px-6 py-4 text-center",
+        className: "w-full bg-gray-100 px-3 py-3 text-center sm:px-6 sm:py-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-sm  font-medium",
-                children: "Get Up To 40% Off*.   Buy 3,   Get Extra 20% Off*"
+                className: "text-xs font-medium leading-relaxed sm:text-sm",
+                children: "Get Up To 40% Off*. Buy 3, Get Extra 20% Off*"
             }, void 0, false, {
                 fileName: "[project]/components/PromoBar.tsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-1 flex items-center justify-center gap-5 text-xs underline underline-offset-4",
+                className: "mt-2 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs underline underline-offset-4 sm:gap-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         type: "button",
+                        className: "transition-colors hover:text-gray-500",
                         children: "Shop Now"
                     }, void 0, false, {
                         fileName: "[project]/components/PromoBar.tsx",
@@ -267,10 +269,11 @@ function PromoBar() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         type: "button",
+                        className: "transition-colors hover:text-gray-500",
                         children: "Terms & Conditions"
                     }, void 0, false, {
                         fileName: "[project]/components/PromoBar.tsx",
-                        lineNumber: 10,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this)
                 ]
@@ -300,15 +303,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function TopBar() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "border-b border-gray-100 bg-white",
+        className: "w-full border-b border-gray-100 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto flex h-10 max-w-7xl items-center justify-end px-6",
+            className: "mx-auto flex h-9 w-full max-w-7xl items-center justify-end px-3 sm:h-10 sm:px-6",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-3 text-xs font-medium",
+                className: "flex items-center gap-2.5 text-[11px] font-medium sm:gap-3 sm:text-xs",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         href: "/help",
-                        className: "hover:text-gray-500",
+                        className: "transition-colors hover:text-gray-500",
                         children: "Help"
                     }, void 0, false, {
                         fileName: "[project]/components/TopBar.tsx",
@@ -325,7 +328,7 @@ function TopBar() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         href: "/signup",
-                        className: "hover:text-gray-500",
+                        className: "transition-colors hover:text-gray-500",
                         children: "Sign Up"
                     }, void 0, false, {
                         fileName: "[project]/components/TopBar.tsx",
@@ -342,7 +345,7 @@ function TopBar() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         href: "/login",
-                        className: "hover:text-gray-500",
+                        className: "transition-colors hover:text-gray-500",
                         children: "Log In"
                     }, void 0, false, {
                         fileName: "[project]/components/TopBar.tsx",

@@ -1,4 +1,4 @@
-    "use client";
+"use client";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
@@ -30,24 +30,24 @@ export default function ProductSection({
   };
 
   return (
-    <section className="mx-auto max-w-7xl px-6 py-16">
-      <div className="mb-8 flex items-end justify-between">
-        <div>
-          <p className="text-sm font-medium uppercase tracking-widest text-gray-500">
+    <section className="mx-auto w-full max-w-7xl overflow-hidden px-4 py-10 sm:px-6 sm:py-16">
+      <div className="mb-6 flex items-end justify-between gap-3 sm:mb-8">
+        <div className="min-w-0">
+          <p className="text-xs font-medium uppercase tracking-widest text-gray-500 sm:text-sm">
             {eyebrow}
           </p>
 
-          <h2 className="mt-2 text-3xl font-bold tracking-tight">
+          <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">
             {title}
           </h2>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <button
             type="button"
             onClick={scrollLeft}
             aria-label={`Previous ${title}`}
-            className="rounded-full bg-gray-100 p-3 transition hover:bg-gray-200"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition hover:bg-gray-200 sm:h-12 sm:w-12"
           >
             <ChevronLeft size={20} />
           </button>
@@ -56,7 +56,7 @@ export default function ProductSection({
             type="button"
             onClick={scrollRight}
             aria-label={`Next ${title}`}
-            className="rounded-full bg-gray-100 p-3 transition hover:bg-gray-200"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 transition hover:bg-gray-200 sm:h-12 sm:w-12"
           >
             <ChevronRight size={20} />
           </button>
@@ -65,12 +65,12 @@ export default function ProductSection({
 
       <div
         id={title}
-        className="flex gap-5 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex w-full snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-5"
       >
         {products.map((product) => (
           <div
             key={product.id}
-            className="w-[75%] shrink-0 sm:w-[45%] lg:w-[calc(25%-15px)]"
+            className="w-[82%] shrink-0 snap-start min-[400px]:w-[75%] sm:w-[45%] lg:w-[calc(25%-15px)]"
           >
             <ProductCard product={product} />
           </div>
